@@ -1,0 +1,158 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #d8ffd8; 
+    margin: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    background-color: #c8facc;
+    width: 100%;
+    padding: 10px 20px;
+    box-sizing: border-box;
+}
+
+.navbar a {
+    color: #1a3d1a;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: #e0ffe0; 
+}
+
+.mar_itme {
+    margin-right: 20px;
+}
+
+.itme_left {
+    margin-right: auto;
+}
+
+.DivDox {
+    background-color: #f0fff0;
+    width: 60%;
+    margin: 40px auto;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    position: relative;
+}
+
+.circal {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    background-color: #bceebc; 
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.images {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+.Div_Box {
+    width: 60%;
+}
+
+.lable_h3 {
+    position: absolute;
+    top: -20px;
+    left: 20px;
+    color: #1a3d1a; 
+}
+
+.pro {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(200px, 1fr));
+    gap: 30px;
+    padding: 40px;
+    width: 60%;
+    margin: auto;
+}
+
+.card {
+    background: #f5fff5; 
+    height: 140px;
+    border-radius: 12px;
+    border: 2px solid #b0e0b0;
+    transition: transform 0.2s ease;
+    padding: 20px;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    border-color: #8fd18f; 
+}
+
+.btn {
+    padding: 6px 12px;
+    background-color: #7eff7e; 
+    color: #004d00; 
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+.btn:hover {
+    background-color: #6de66d; 
+}
+
+.on_top {
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+}
+
+form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    margin: auto;
+    width: 60%;
+}
+
+.form fieldset,
+.form h3 {
+    grid-column: 1 / -1;
+    width: 100%;
+}
+
+.full_rwo {
+    grid-column: 1 / -1;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.buttons {
+    grid-column: 1 / -1;
+    gap: 30px;
+    display: flex;
+    justify-self: start;
+}
+
+button {
+    border-radius: 6px;
+    padding: 5px 10px;
+}
+
+.lift_sid {
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+}

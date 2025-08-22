@@ -141,7 +141,7 @@ form {
 
 .buttons {
     grid-column: 1 / -1;
-    gap: 30px;
+    gap: 15px;
     display: flex;
     justify-self: start;
 }
@@ -149,6 +149,7 @@ form {
 button {
     border-radius: 6px;
     padding: 5px 10px;
+    margin: 20px;
 }
 
 .lift_sid {
